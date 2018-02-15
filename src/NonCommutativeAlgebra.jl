@@ -6,7 +6,7 @@ Base: (*), /, ^, +, -
 export Element, adjoint
 
 
-typealias Element{K} Dict{Array{Int,1}, K}
+Element{K} = Dict{Array{Int,1},K}
 
 
 +{K}(f::Element{K}) = copy(f)
